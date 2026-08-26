@@ -1,0 +1,77 @@
+/*
+ * step 步骤样式美化 By 星河
+ */
+
+.step-slider{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+#progressbar li {
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-size: 1.3rem;
+    color: #ddbd23;
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color:#FFF !important;
+}
+
+#progressbar li span{
+    position: relative;
+    top: 1px;
+}
+
+#progressbar li.active,
+#progressbar li:before,
+#progressbar li:after
+{
+    color: #06a02b;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    line-height: 30px;
+    display: block;
+    font-size: 15px;
+    font-size: 1.5rem;
+    color: #FFF;
+    background: #ddbd23;
+    border-radius: 25px;
+    margin: 0 auto 5px auto;
+    z-index: 1;
+    position: relative;
+}
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #fad733;
+    position: absolute;
+    left: -50%;
+    top: 13px;
+    z-index: 0; /*put it behind the numbers*/
+}
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none; 
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,  #progressbar li.active:after{
+    background: #27AE60;
+    color: white;
+}

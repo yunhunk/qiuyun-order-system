@@ -1,0 +1,144 @@
+.template-title {
+    display: block;
+    margin: 10 auto;
+    text-align: left;
+    font-size: 1.3rem;
+    color: #0993a1;
+}
+.template-box {
+    display: block;
+    position: relative;
+    top: 1px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.template {
+    display: block;
+    margin-bottom: 55px;
+}
+.template .template-view {
+    width: 40%;
+    display: inline-block;
+}
+.template .template-view .view {
+    margin: 5px auto 0;
+    width: 100%;
+    position: relative;
+}
+.template .template-view .view img {
+    width: 100%;
+}
+.template .template-view h4 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+@media screen and (max-width:767px) {
+    .template .template-view .view {
+        width: 90%;
+    }
+    .template .template-view h4 {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (min-width:767px) and (max-width:900px) {
+    .template .template-view .view {
+        width: 90%;
+    }
+    .template .template-view h4 {
+        font-size: 1.0rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .template .template-view .view {
+        width: 65%;
+    }
+    .template .template-view h4 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width:1200px) {
+    .template .template-view .view {
+        width: 50%;
+    }
+}
+.template .template-option {
+    float: right;
+    display: inline-block;
+    margin-top: 55px;
+    width: 60%;
+    display: inline-block;
+}
+.template .template-option .option {
+    width: 100%;
+    padding-left: 0;
+}
+@media screen and (min-width:767px) and (max-width:900px) {
+    .template .template-option .option {
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .template .template-option .option {
+        padding-left: 40px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .template .template-option .option {
+        padding-left: 60px;
+    }
+}
+.template .template-option a {
+    color: blue;
+}
+.template-title p {
+    margin-left: 20px;
+}
+ul.template-list {
+    margin-top: 25px;
+    display: table-row;
+}
+.template-list li {
+    width: 50%;
+    display: inline-block;
+    padding: 15px 25px;
+}
+.template-list .template-image img {
+    width: 100%;
+}
+@media screen and (max-width:767px) {
+    .template-list li {
+        width: 50%;
+        padding: 5px 8px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:900px) {
+    .template-list li {
+        width: 50%;
+        padding: 8px 15px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1200px) {
+    .template-list li {
+        width: 33.33%;
+        padding: 20px 50px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .template-list li {
+        width: 33.33%;
+        padding: 25px 80px;
+    }
+}
+.template-list .template-title {
+    margin-top: 8px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+@media screen and (max-width:900px) {
+    .modal-body {
+        padding: 15px 3px;
+    }
+}

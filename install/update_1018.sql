@@ -1,0 +1,1 @@
+INSERT INTO `pre_menu` VALUES (122,  22, '批量上架新版', './shopbatch.php', 'shopbatch', '', '', 22, '1', 0, '', 0, 0, 0, 1636908915, 1636908915);

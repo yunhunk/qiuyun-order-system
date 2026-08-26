@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>秋云自助下单系统 V2 - 使用说明</title>
+<style>
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #f5f6fa;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+    .container {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 20px 25px;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    }
+    h1 {
+        color: #15A638;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    h2 {
+        color: #15A638;
+        font-weight: 600;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #15A63833;
+        padding-bottom: 5px;
+    }
+    p {
+        margin: 10px 0;
+        font-size: 15px;
+        color: #555;
+    }
+    ul {
+        margin-left: 20px;
+        list-style-type: disc;
+    }
+    li {
+        margin-bottom: 8px;
+    }
+    code {
+        background-color: #f2f2f2;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-family: monospace;
+    }
+    a {
+        color: #15A638;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 13px;
+        color: #aaa;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>秋云自助下单系统 V2</h1>
+
+    <h2>系统简介</h2>
+    <p>秋云自助下单系统 V2 是一款轻量级、高效、安全的自助下单管理系统，适用于各种虚拟产品、服务类订单的管理和自动处理。系统界面简洁，操作方便，安装部署快速。</p>
+
+    <h2>主要功能</h2>
+    <ul>
+        <li>订单自动处理和状态更新</li>
+        <li>多级权限管理和后台控制</li>
+        <li>实时数据统计和报表生成</li>
+        <li>支持自定义后台入口地址，提升安全性</li>
+        <li>内置日志管理，方便追踪订单异常</li>
+        <li>支持数据库配置一键保存及自动创建数据表</li>
+    </ul>
+
+    <h2>安装与配置</h2>
+    <ul>
+        <li>将系统文件上传至服务器根目录或指定目录</li>
+        <li>通过安装向导完成环境检查、数据库配置及初始化数据表</li>
+        <li>安装完成后，访问自定义后台入口登录管理</li>
+        <li>推荐使用 PHP 7.0+ 及支持 PDO_Mysql 的环境</li>
+    </ul>
+
+    <h2>使用说明</h2>
+    <ul>
+        <li>登录后台后，可自助添加商品、管理订单</li>
+        <li>支持查看订单详情、导出报表</li>
+        <li>管理员可修改系统配置、更新系统</li>
+        <li>请妥善保管管理员账号和密码，避免信息泄露</li>
+    </ul>
+
+    <h2>注意事项</h2>
+    <ul>
+        <li>首次安装请确保 <code>install/</code> 目录有写入权限</li>
+        <li>安装完成后请及时删除或锁定安装目录以保障安全</li>
+        <li>如服务器不支持本地文件写入，请手动在 <code>install/</code> 目录创建 <code>install.lock</code> 文件</li>
+    </ul>
+
+    <div class="footer">
+        &copy; 2025 秋云自助下单系统 V2 | 保留所有权利
+    </div>
+</div>
+</body>
+</html>

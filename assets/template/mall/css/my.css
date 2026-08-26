@@ -1,0 +1,157 @@
+body {
+    background-color: #f6f6f6;
+}
+.userOptions li, .userOptions ol, {
+    list-style: none;
+}
+#main {
+    flex: 1;
+    overflow-y: hidden;
+}
+.userbox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: #fff;
+}
+@media screen and (max-width: 992px) {
+    .userbox {
+        padding: 8px;
+    }
+}
+.userbox .headImg {
+    width: 60px;
+    height: 60px;
+}
+.userbox .headImg img {
+    width: 60px;
+    height: 60px;
+}
+@media screen and (max-width: 992px) {
+    .userbox .headImg {
+        width: 45px;
+        height: 60px;
+    }
+    .userbox .headImg img {
+        margin-top: 7.5px;
+        width: 45px;
+        height: 45px;
+    }
+}
+.userbox .userinfo {
+    display: inline-block;
+    flex: 1;
+}
+.userbox .userinfo p {
+    margin: 10px;
+}
+.userbox .usermenu {
+    display: inline-block;
+}
+.userbox .usermenu .menu {
+    display: block;
+    float: right;
+    position: relative;
+    right: 5px;
+}
+.userbox .usermenu .menu p {
+    margin: 10px;
+}
+.userbox .usermenu .menu p span.money {
+    color: red;
+}
+.userbox .usermenu .menu p span.lasttime {
+    font-size: 12px;
+}
+.userbox .usermenu .menu p span.btn_r {
+    float: right;
+    margin-left: 4px;
+}
+@media screen and (max-width: 992px) {
+    .userbox .usermenu .menu p span.lasttime {
+        font-size: 10px;
+    }
+    .userbox .usermenu .menu p span.btn_r {
+        float: right;
+        margin-left: 6px;
+    }
+}
+#main .work {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+@media screen and (max-width: 992px) {
+    #main .work {
+        padding: 8px;
+    }
+}
+#main .work>li {
+    width: 33.3333%;
+    text-align: center;
+}
+#main .work>li a {
+    color: #333;
+}
+.userOredr {
+    text-align: center;
+}
+.userOredr li {
+    border-right: 1px solid #ccc9c9;
+}
+.userOredr li:nth-last-child(1) {
+    border-right: 0px solid #f7f7f7;
+}
+.userOredr p {
+    text-align: center;
+}
+.userOredr p.icon {
+    font-size: 1.0rem;
+    margin-bottom: 3px;
+}
+.userOredr p.num {
+    margin-top: 5px;
+}
+.userOredr .c_count {
+    color: #2196F3;
+}
+.userOredr .c_handle {
+    color: #FF9800;
+}
+.userOredr .c_succ {
+    color: #4CAF50;
+}
+#main .con {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#main .con>li {
+    flex: 1;
+    line-height: 60px;
+    border: 1px solid #f7f7f7;
+    border-bottom: none;
+    padding-left: 10px;
+}
+#main .con>li:last-child {
+    border-bottom: 1px solid #f7f7f7;
+}
+#main .con>li span:first-child {
+    color: red;
+    font-size: 18px;
+    margin-right: 4px;
+}
+#main .con>li span:last-child {
+    color: #333;
+    float: right;
+    margin-right: 0.5rem;
+}
+#main .loginBtn {
+    color: #4caf50;
+}
+#main .loginBtn:hover, #main .loginBtn:active {
+    color: #35ae39;
+}

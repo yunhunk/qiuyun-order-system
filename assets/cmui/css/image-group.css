@@ -1,0 +1,77 @@
+.imageBox {
+    display: block;
+    overflow-x: auto;
+}
+.imageBox .content {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+.imageBox .imageList {
+    /* flex: 1; */
+    display: flex;
+    padding: 5px;
+}
+.imageBox .imageList .item {
+    position: relative;
+    height: 90px;
+    width: 80px;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+}
+.imageBox .imageList .item:frist {
+    margin-left: 0px;
+}
+.imageBox .imageList .item img {
+    width: 100%;
+    height: 100%;
+}
+.imageBox .imageList .item .btn {
+    bottom: 24px;
+    display: block;
+    text-align: center;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    position: relative;
+    background-color: #636363;
+    left: 0;
+    padding: 1px;
+}
+.imageBox .imageList .item .btn a {
+    color: #fff;
+    font-size: 11px;
+    color: #fff;
+    width: 100%;
+}
+.imageBox .imageList .item:hover .btn {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.imageBox .imageBtn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    min-width: 100px;
+}
+.imageBox .imageBtn .box {
+    background: #8870b3;
+    height: 90px;
+    line-height: 90px;
+    /* width: 80px; */
+    text-align: center;
+}
+.imageBox .imageBtn a {
+    /* padding: 0 10px; */
+    color: #fff;
+    font-size: 12px;
+}
+.imageBox .imageBtn .count {
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    color: #9afcf3;
+    text-align: center;
+}

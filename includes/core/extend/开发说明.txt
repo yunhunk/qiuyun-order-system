@@ -1,0 +1,1 @@
+按照例子开发完成后，把插件打包上传到includes/core/extend即可

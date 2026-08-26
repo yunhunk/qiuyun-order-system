@@ -1,0 +1,28 @@
+body { margin: 0; }
+
+
+
+ul {
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    margin: 0;
+    padding: 0;
+    position: inherit;
+    left:0;
+
+
+
+    list-style-type: none;
+    overflow: hidden;
+
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+
+}

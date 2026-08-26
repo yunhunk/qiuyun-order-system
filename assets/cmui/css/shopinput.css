@@ -1,0 +1,380 @@
+/**
+ * ------------------------------------------------------------------------------------
+ * name 星河云Plus模板通用表单样式
+ * ------------------------------------------------------------------------------------
+ * author 星河 andywickshum@gmail.com 
+ * ------------------------------------------------------------------------------------
+ */
+
+.size2_1 {
+    margin-bottom: 4px;
+    /*border-top: 1px solid #eee;*/
+    padding-bottom: .5rem
+}
+.size2_1 .tit {
+    color: #333;
+    padding: .6rem 0 .3rem
+}
+.input-box {
+    /*border-top: 1px solid #eee;*/
+    padding-bottom: .5rem;
+}
+.input-box .tit {
+    color: #333;
+    padding: .6rem 0 .3rem;
+}
+.input-box .input-form {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.input-box .input-form {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    padding: 0 6px 0 3px;
+}
+.input-box .input-form .input-form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    flex: 1;
+    font-size: 1.0rem;
+    padding: 5px 8px;
+}
+.input-box .input-form .input-form-control input {
+    display: inline-block;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    border: 1px solid #e6e6e6;
+}
+.input-box .input-form .input-form-control select {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    display: table-cell;
+    flex: 1;
+}
+.input-box .input-form .input-form-addon, .input-form-addon {
+    color: #545454 !important;
+    background-color: #f5f5f5 !important;
+    border-color: #e9e9e9 !important;
+    padding: 0px 3px;
+    line-height: 2.2rem;
+}
+.input-box .input-form .input-btn, .input-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    font-weight: 600;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    border: 0px;
+}
+.input-btn-hr {
+    /*height: 1px;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+    /*border: 1px solid #000;*/
+}
+.input-btn-block {
+    display: block;
+    width: 100%;
+    padding: 5px 0 !important;
+    margin-top: 5px !important;
+}
+.input-btn-radius {
+    border-radius: 3px;
+}
+.input-btn-xs {
+    display: inline-block;
+    padding: 8px 12px !important;
+}
+.input-btn-sm {
+    display: inline-block;
+    padding: 10px 14px !important;
+}
+.input-btn-md {
+    display: inline-block;
+    padding: 12px 17px !important;
+}
+.input-btn-lg {
+    display: inline-block;
+    padding: 15px 20px !important;
+}
+.input-btn-default {
+    color: #545454 !important;
+    background-color: #f5f5f5 !important;
+    border-color: #e9e9e9 !important;
+}
+.input-btn-default:hover, .input-btn-default:focus, .input-btn-default:active, .input-btn-default.active, .open .dropdown-toggle.input-btn-default {
+    color: #58666e !important;
+    background-color: #edf1f2;
+    border-color: #c7d3d6;
+}
+.input-btn-default:active, .input-btn-default.active, .open .dropdown-toggle.input-btn-default {
+    background-image: none;
+}
+.input-btn-default.disabled, .input-btn-default[disabled], fieldset[disabled] .input-btn-default, .input-btn-default.disabled:hover, .input-btn-default[disabled]:hover, fieldset[disabled] .input-btn-default:hover, .input-btn-default.disabled:focus, .input-btn-default[disabled]:focus, fieldset[disabled] .input-btn-default:focus, .input-btn-default.disabled:active, .input-btn-default[disabled]:active, fieldset[disabled] .input-btn-default:active, .input-btn-default.disabled.active, .input-btn-default[disabled].active, fieldset[disabled] .input-btn-default.active {
+    background-color: #fcfdfd;
+    border-color: #dee5e7;
+}
+.input-btn-default.input-btn-bg {
+    border-color: rgba(0, 0, 0, 0.1);
+    background-clip: padding-box;
+}
+.input-btn-primary {
+    color: #ffffff !important;
+    background-color: #7266ba;
+    border-color: #7266ba;
+}
+.input-btn-primary:hover, .input-btn-primary:focus, .input-btn-primary:active, .input-btn-primary.active, .open .dropdown-toggle.input-btn-primary {
+    color: #ffffff !important;
+    background-color: #6254b2;
+    border-color: #5a4daa;
+}
+.input-btn-primary:active, .input-btn-primary.active, .open .dropdown-toggle.input-btn-primary {
+    background-image: none;
+}
+.input-btn-primary.disabled, .input-btn-primary[disabled], fieldset[disabled] .input-btn-primary, .input-btn-primary.disabled:hover, .input-btn-primary[disabled]:hover, fieldset[disabled] .input-btn-primary:hover, .input-btn-primary.disabled:focus, .input-btn-primary[disabled]:focus, fieldset[disabled] .input-btn-primary:focus, .input-btn-primary.disabled:active, .input-btn-primary[disabled]:active, fieldset[disabled] .input-btn-primary:active, .input-btn-primary.disabled.active, .input-btn-primary[disabled].active, fieldset[disabled] .input-btn-primary.active {
+    background-color: #7266ba;
+    border-color: #7266ba;
+}
+.input-btn-success {
+    color: #ffffff !important;
+    background-color: #27c24c;
+    border-color: #27c24c;
+}
+.input-btn-success:hover, .input-btn-success:focus, .input-btn-success:active, .input-btn-success.active, .open .dropdown-toggle.input-btn-success {
+    color: #ffffff !important;
+    background-color: #23ad44;
+    border-color: #20a03f;
+}
+.input-btn-success:active, .input-btn-success.active, .open .dropdown-toggle.input-btn-success {
+    background-image: none;
+}
+.input-btn-success.disabled, .input-btn-success[disabled], fieldset[disabled] .input-btn-success, .input-btn-success.disabled:hover, .input-btn-success[disabled]:hover, fieldset[disabled] .input-btn-success:hover, .input-btn-success.disabled:focus, .input-btn-success[disabled]:focus, fieldset[disabled] .input-btn-success:focus, .input-btn-success.disabled:active, .input-btn-success[disabled]:active, fieldset[disabled] .input-btn-success:active, .input-btn-success.disabled.active, .input-btn-success[disabled].active, fieldset[disabled] .input-btn-success.active {
+    background-color: #27c24c;
+    border-color: #27c24c;
+}
+.input-btn-info {
+    color: #ffffff !important;
+    background-color: #23b7e5;
+    border-color: #23b7e5;
+}
+.input-btn-info:hover, .input-btn-info:focus, .input-btn-info:active, .input-btn-info.active, .open .dropdown-toggle.input-btn-info {
+    color: #ffffff !important;
+    background-color: #19a9d5;
+    border-color: #189ec8;
+}
+.input-btn-info:active, .input-btn-info.active, .open .dropdown-toggle.input-btn-info {
+    background-image: none;
+}
+.input-btn-info.disabled, .input-btn-info[disabled], fieldset[disabled] .input-btn-info, .input-btn-info.disabled:hover, .input-btn-info[disabled]:hover, fieldset[disabled] .input-btn-info:hover, .input-btn-info.disabled:focus, .input-btn-info[disabled]:focus, fieldset[disabled] .input-btn-info:focus, .input-btn-info.disabled:active, .input-btn-info[disabled]:active, fieldset[disabled] .input-btn-info:active, .input-btn-info.disabled.active, .input-btn-info[disabled].active, fieldset[disabled] .input-btn-info.active {
+    background-color: #23b7e5;
+    border-color: #23b7e5;
+}
+.input-btn-warning {
+    color: #ffffff !important;
+    background-color: #fad733;
+    border-color: #fad733;
+}
+.input-btn-warning:hover, .input-btn-warning:focus, .input-btn-warning:active, .input-btn-warning.active, .open .dropdown-toggle.input-btn-warning {
+    color: #ffffff !important;
+    background-color: #f9d21a;
+    border-color: #f9cf0b;
+}
+.input-btn-warning:active, .input-btn-warning.active, .open .dropdown-toggle.input-btn-warning {
+    background-image: none;
+}
+.input-btn-warning.disabled, .input-btn-warning[disabled], fieldset[disabled] .input-btn-warning, .input-btn-warning.disabled:hover, .input-btn-warning[disabled]:hover, fieldset[disabled] .input-btn-warning:hover, .input-btn-warning.disabled:focus, .input-btn-warning[disabled]:focus, fieldset[disabled] .input-btn-warning:focus, .input-btn-warning.disabled:active, .input-btn-warning[disabled]:active, fieldset[disabled] .input-btn-warning:active, .input-btn-warning.disabled.active, .input-btn-warning[disabled].active, fieldset[disabled] .input-btn-warning.active {
+    background-color: #fad733;
+    border-color: #fad733;
+}
+.input-btn-danger {
+    color: #ffffff !important;
+    background-color: #f05050;
+    border-color: #f05050;
+}
+.input-btn-danger:hover, .input-btn-danger:focus, .input-btn-danger:active, .input-btn-danger.active, .open .dropdown-toggle.input-btn-danger {
+    color: #ffffff !important;
+    background-color: #ee3939;
+    border-color: #ed2a2a;
+}
+.input-btn-danger:active, .input-btn-danger.active, .open .dropdown-toggle.input-btn-danger {
+    background-image: none;
+}
+.input-btn-danger.disabled, .input-btn-danger[disabled], fieldset[disabled] .input-btn-danger, .input-btn-danger.disabled:hover, .input-btn-danger[disabled]:hover, fieldset[disabled] .input-btn-danger:hover, .input-btn-danger.disabled:focus, .input-btn-danger[disabled]:focus, fieldset[disabled] .input-btn-danger:focus, .input-btn-danger.disabled:active, .input-btn-danger[disabled]:active, fieldset[disabled] .input-btn-danger:active, .input-btn-danger.disabled.active, .input-btn-danger[disabled].active, fieldset[disabled] .input-btn-danger.active {
+    background-color: #f05050;
+    border-color: #f05050;
+}
+.input-btn-dark {
+    color: #ffffff !important;
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+}
+.input-btn-dark:hover, .input-btn-dark:focus, .input-btn-dark:active, .input-btn-dark.active, .open .dropdown-toggle.input-btn-dark {
+    color: #ffffff !important;
+    background-color: #2f3342;
+    border-color: #292d39;
+}
+.input-btn-dark:active, .input-btn-dark.active, .open .dropdown-toggle.input-btn-dark {
+    background-image: none;
+}
+.input-btn-dark.disabled, .input-btn-dark[disabled], fieldset[disabled] .input-btn-dark, .input-btn-dark.disabled:hover, .input-btn-dark[disabled]:hover, fieldset[disabled] .input-btn-dark:hover, .input-btn-dark.disabled:focus, .input-btn-dark[disabled]:focus, fieldset[disabled] .input-btn-dark:focus, .input-btn-dark.disabled:active, .input-btn-dark[disabled]:active, fieldset[disabled] .input-btn-dark:active, .input-btn-dark.disabled.active, .input-btn-dark[disabled].active, fieldset[disabled] .input-btn-dark.active {
+    background-color: #3a3f51;
+    border-color: #3a3f51;
+}
+/*黑色按钮*/
+
+.input-btn-black {
+    color: #ffffff !important;
+    background-color: #1c2b36;
+    border-color: #1c2b36;
+}
+.input-btn-black:hover, .input-btn-black:focus, .input-btn-black:active, .input-btn-black.active, .open .dropdown-toggle.input-btn-black {
+    color: #ffffff !important;
+    background-color: #131e25;
+    border-color: #0e161b;
+}
+.input-btn-black:active, .input-btn-black.active, .open .dropdown-toggle.input-btn-black {
+    background-image: none;
+}
+.input-btn-black.disabled, .input-btn-black[disabled], fieldset[disabled] .input-btn-black, .input-btn-black.disabled:hover, .input-btn-black[disabled]:hover, fieldset[disabled] .input-btn-black:hover, .input-btn-black.disabled:focus, .input-btn-black[disabled]:focus, fieldset[disabled] .input-btn-black:focus, .input-btn-black.disabled:active, .input-btn-black[disabled]:active, fieldset[disabled] .input-btn-black:active, .input-btn-black.disabled.active, .input-btn-black[disabled].active, fieldset[disabled] .input-btn-black.active {
+    background-color: #1c2b36;
+    border-color: #1c2b36;
+}
+/*灰色按钮*/
+
+.input-btn-gray {
+    color: #ffffff !important;
+    background-color: #b9b9b9;
+    border-color: #b9b9b9;
+}
+.input-btn-gray:hover, .input-btn-gray:focus, .input-btn-gray:active, .input-btn-gray.active, .open .dropdown-toggle.input-btn-gray {
+    color: #ffffff !important;
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+}
+.input-btn-gray:active, .input-btn-gray.active, .open .dropdown-toggle.input-btn-gray {
+    background-image: none;
+}
+.input-btn-gray.disabled, .input-btn-gray[disabled], fieldset[disabled] .input-btn-gray, .input-btn-gray.disabled:hover, .input-btn-gray[disabled]:hover, fieldset[disabled] .input-btn-gray:hover, .input-btn-gray.disabled:focus, .input-btn-gray[disabled]:focus, fieldset[disabled] .input-btn-gray:focus, .input-btn-gray.disabled:active, .input-btn-gray[disabled]:active, fieldset[disabled] .input-btn-gray:active, .input-btn-gray.disabled.active, .input-btn-gray[disabled].active, fieldset[disabled] .input-btn-gray.active {
+    background-color: #b9b9b9;
+    border-color: #b9b9b9;
+}
+/*橙色按钮*/
+
+.input-btn-orange {
+    color: #ffffff !important;
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+.input-btn-orange:hover, .input-btn-orange:focus, .input-btn-orange:active, .input-btn-orange.active, .open .dropdown-toggle.input-btn-orange {
+    color: #ffffff !important;
+    background-color: #e44310;
+    border-color: #e44310;
+}
+.input-btn-orange:active, .input-btn-orange.active, .open .dropdown-toggle.input-btn-orange {
+    background-image: none;
+}
+.input-btn-orange.disabled, .input-btn-orange[disabled], fieldset[disabled] .input-btn-orange, .input-btn-orange.disabled:hover, .input-btn-orange[disabled]:hover, fieldset[disabled] .input-btn-orange:hover, .input-btn-orange.disabled:focus, .input-btn-orange[disabled]:focus, fieldset[disabled] .input-btn-orange:focus, .input-btn-orange.disabled:active, .input-btn-orange[disabled]:active, fieldset[disabled] .input-btn-orange:active, .input-btn-orange.disabled.active, .input-btn-orange[disabled].active, fieldset[disabled] .input-btn-orange.active {
+    background-color: #e44310;
+    border-color: #e44310;
+}
+/**
+ * ------------------------------------------------------------------------------------
+ * ------------------------------------------------------------------------------------
+ * 订单查询样式
+ * ------------------------------------------------------------------------------------
+ * ------------------------------------------------------------------------------------
+ */
+
+.chenmQTable {
+    display: inline-table;
+    margin: 5px auto;
+}
+.chenmQTable>thead {
+    width: 100%;
+}
+.chenmQTable>thead>tr {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.chenmQTable>tbody {
+    width: 100%;
+}
+.chenmQTable>tbody>tr {
+    /* display: flex;*/
+    width: 100%;
+    flex-direction: row;
+}
+.chenmQTable>tbody>tr td.order {
+    /*flex: 1;*/
+    display: inline-block;
+    width: 100%;
+}
+.chenmQTable>tbody>tr td.order div.order-more {
+    display: none;
+}
+.chenmQTable>tbody>tr td.order p {
+    margin: 0;
+    padding: 3px 0;
+    padding-left: 0.2rem;
+}
+.chenmQTable>tbody>tr td.order p.separate {
+    text-align: left;
+    font-size: 16px;
+    font-size: 1.0rem;
+    margin-left: 0.2rem;
+}
+.chenmQTable>tbody>tr td.order span {
+    font-weight: bold;
+}
+.chenmQTable>tbody>tr td.operation {
+    width: 1%;
+    min-width: 60px;
+}
+.chenmQTable>tbody>tr td.operation .close_more {
+    display: none;
+}
+.chenmQTable>tbody>tr td.operation p {
+    padding: 2px 8px;
+}
+/*超小设备*/
+
+@media screen and (max-width:767px) {
+    .chenmQTable>tbody>tr td.order {
+        /* flex: 1;
+        display: inline-block;*/
+    }
+}
+/*小设备*/
+
+@media screen and (min-width:767px) and (max-width:992px) {}
+/*中设备*/
+
+@media screen and (min-width:992px) and (max-width:1200px) {}
+/*大设备*/
+
+@media screen and (min-width:1200px) {}

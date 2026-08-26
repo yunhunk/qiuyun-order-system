@@ -1,0 +1,493 @@
+#alert_frame {
+    padding: 10px !important;
+    margin-top: 12px;
+}
+#alert_title {
+    font-size: 18px;
+    font-size: 1.8rem;
+    color: red;
+    padding: 2px 0;
+    ;
+    margin: 1px auto;
+    text-align: center
+}
+#work_ok {
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: red;
+    padding: 5px;
+    margin: 20px auto 10px;
+    text-align: center
+}
+.mdui-textfield-label {
+    display: unset;
+    /*display: block;*/
+}
+.mdui-explode {
+    height: 12px;
+}
+.mdui-card {
+    border-radius: 8px;
+}
+.sideImg {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+}
+.talkBox {
+    min-height: 200px;
+    max-height: 390px;
+    overflow: auto;
+    padding: 5px 8px;
+    border: 1px solid #009688;
+}
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+.clearfloat {
+    zoom: 1;
+}
+.clearfloat .right {
+    float: right;
+}
+.author-name {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    color: #888;
+}
+.clearfloat .chat-message {
+    max-width: 65%;
+    text-align: left;
+    padding: 8px 12px;
+    border-radius: 6px;
+    word-wrap: break-word;
+    display: inline-block;
+    position: relative;
+}
+.clearfloat .left .chat-message {
+    background: #D9D9D9;
+    min-height: 22px;
+    z-index: 999;
+    top: 3px;
+}
+.clear-form {
+    -webkit-animation: Glow 1.5s ease infinite alternate;
+    animation: Glow 1.5s ease infinite alternate;
+}
+.clearfloat .left .chat-message:before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: -6px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #D9D9D9;
+    z-index: -1;
+}
+.clearfloat .right {
+    text-align: right;
+}
+.clearfloat .right .chat-message {
+    background: #01aaed;
+    text-align: left;
+    min-height: 22px;
+    z-index: 999;
+    top: 3px;
+}
+.clearfloat .right .chat-message:before {
+    position: absolute;
+    content: "";
+    top: 8px;
+    right: -6px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #01aaed;
+    z-index: -1;
+}
+.clearfloat .chat-avatars {
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.clearfloat .left .chat-avatars {
+    margin-right: 10px;
+}
+.clearfloat .right .chat-avatars {
+    margin-left: 5px;
+}
+.cm-kfqy {
+    background-color: #5ccdde;
+    padding: 8px 10px;
+    width: 100%;
+    display: block;
+    color: #fff !important;
+    border-radius: 4px;
+}
+.cm-kfqy:hover {
+    background-color: #4eb6c7;
+    padding: 8px 10px;
+    width: 100%;
+    display: block;
+    color: #fff !important;
+    border-radius: 4px;
+}
+.cm-kfqy-warning {
+    background-color: #eb70cb;
+    padding: 8px 10px;
+    width: 100%;
+    display: block;
+    color: #fff !important;
+    border-radius: 4px;
+}
+.cm-kfqy-warning:hover {
+    background-color: #e05abd;
+    padding: 8px 10px;
+    width: 100%;
+    display: block;
+    color: #fff !important;
+    border-radius: 4px;
+}
+#alert_content img {
+    max-width: 100%;
+}
+#alert_frame img {
+    max-width: 100%;
+}
+@media screen AND (max-width: 768px) {
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 3px;
+        font-size: 14px;
+    }
+    .nav>li>a span {
+        font-size: 14px;
+    }
+}
+@media screen AND (min-width: 768px) AND (max-width: 992px) {
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 10px 6px;
+        font-size: 16px;
+    }
+    .nav>li>a span {
+        font-size: 16px;
+    }
+}
+/**
+ * =============================================================================
+ * ************   Color 颜色   ************
+ * =============================================================================
+ */
+
+.mdui-color-pink {
+    color: #fff !important;
+    background-color: #e91e63 !important;
+}
+.mdui-color-blue {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #2196f3 !important;
+}
+.mdui-color-brown {
+    color: #fff !important;
+    background-color: #795548 !important;
+}
+.mdui-color-cyan {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #00bcd4 !important;
+}
+.mdui-color-green {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #4caf50 !important;
+}
+.mdui-color-grey {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #9e9e9e !important;
+}
+.mdui-color-indigo {
+    color: #fff !important;
+    background-color: #3f51b5 !important;
+}
+.mdui-color-orange {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #ff9800 !important;
+}
+.mdui-color-purple {
+    color: #fff !important;
+    background-color: #9c27b0 !important;
+}
+.mdui-color-red {
+    color: #fff !important;
+    background-color: #f44336 !important;
+}
+.mdui-color-teal {
+    color: #fff !important;
+    background-color: #009688 !important;
+}
+.mdui-color-lime {
+    color: rgba(0, 0, 0, .87) !important;
+    background-color: #cddc39 !important;
+}
+/**
+ * =============================================================================
+ * ************   Button 按钮   ************
+ * =============================================================================
+ */
+
+/* 默认为 Flat 扁平按钮 */
+
+.mdui-btn, .mdui-fab {
+    position: relative;
+    display: inline-block;
+    min-width: 88px;
+    height: 36px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 16px;
+    margin: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    color: inherit;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    zoom: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: transparent;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    -webkit-transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+    transition: all .2s cubic-bezier(.4, 0, .2, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+    transition: all .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+    transition: all .2s cubic-bezier(.4, 0, .2, 1), box-shadow .2s cubic-bezier(.4, 0, 1, 1), -webkit-box-shadow .2s cubic-bezier(.4, 0, 1, 1);
+    will-change: box-shadow;
+    -webkit-user-drag: none;
+}
+.mdui-btn:hover, .mdui-fab:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+.mdui-btn:not(.mdui-ripple):active, .mdui-fab:not(.mdui-ripple):active {
+    background-color: rgba(0, 0, 0, .165);
+}
+.mdui-btn[class*="mdui-color-"]:hover, .mdui-fab[class*="mdui-color-"]:hover {
+    opacity: .87;
+}
+.mdui-btn:not(.mdui-ripple)[class*="mdui-color-"]:active, .mdui-fab:not(.mdui-ripple)[class*="mdui-color-"]:active {
+    opacity: .76;
+}
+/* 按钮内的图标 */
+
+.mdui-btn .mdui-icon-left, .mdui-btn .mdui-icon-right, .mdui-btn .mdui-icon-left::before, .mdui-btn .mdui-icon-right::before {
+    height: inherit;
+    font-size: 1.3em;
+    line-height: inherit;
+}
+.mdui-btn .mdui-icon-left {
+    float: left;
+    margin-right: .4em;
+}
+.mdui-btn .mdui-icon-right {
+    float: right;
+    margin-left: .4em;
+}
+input.mdui-btn[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/* Raised button 浮动按钮 */
+
+.mdui-btn-raised {
+    -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+.mdui-btn-raised:hover {
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12);
+}
+.mdui-btn-raised:active {
+    -webkit-box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, .2), 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12);
+}
+/* 禁用按钮 */
+
+.mdui-btn[disabled], .mdui-fab[disabled], .mdui-btn[disabled]:hover, .mdui-fab[disabled]:hover, .mdui-btn[disabled]:active, .mdui-fab[disabled]:active, .mdui-btn[disabled]:focus, .mdui-fab[disabled]:focus {
+    color: rgba(0, 0, 0, .26) !important;
+    cursor: default !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+}
+.mdui-btn[disabled] .mdui-icon, .mdui-fab[disabled] .mdui-icon, .mdui-btn[disabled]:hover .mdui-icon, .mdui-fab[disabled]:hover .mdui-icon, .mdui-btn[disabled]:active .mdui-icon, .mdui-fab[disabled]:active .mdui-icon, .mdui-btn[disabled]:focus .mdui-icon, .mdui-fab[disabled]:focus .mdui-icon {
+    color: rgba(0, 0, 0, .26) !important;
+}
+/* 禁用状态浮动按钮和浮动操作按钮 */
+
+.mdui-btn-raised[disabled], .mdui-fab[disabled], .mdui-btn-raised[disabled]:hover, .mdui-fab[disabled]:hover, .mdui-btn-raised[disabled]:active, .mdui-fab[disabled]:active, .mdui-btn-raised[disabled]:focus, .mdui-fab[disabled]:focus {
+    background-color: rgba(0, 0, 0, .12) !important;
+    -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12) !important;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12) !important;
+}
+/* 加粗按钮文本 */
+
+.mdui-btn-bold {
+    font-weight: bold;
+}
+/* 图标按钮 */
+
+.mdui-btn-icon {
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: normal;
+    border-radius: 50%;
+}
+.mdui-btn-icon .mdui-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    line-height: 24px;
+    -webkit-transform: translate(-12px, -12px);
+    transform: translate(-12px, -12px);
+}
+.mdui-btn-icon.mdui-ripple {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+/* 按钮 100% 宽度 */
+
+.mdui-btn-block {
+    display: block;
+    width: 100%;
+}
+/* 密集型按钮 */
+
+.mdui-btn-dense {
+    height: 32px;
+    font-size: 13px;
+    line-height: 32px;
+}
+.mdui-btn-dense.mdui-btn-icon {
+    width: 32px;
+    min-width: 32px;
+}
+/* 按钮组 */
+
+.mdui-btn-group {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mdui-btn-group .mdui-btn {
+    float: left;
+    min-width: inherit;
+    padding: 0 12px;
+    color: rgba(0, 0, 0, .54);
+    border-radius: 0;
+}
+.mdui-btn-group .mdui-btn:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: ' ';
+    border-left: 1px solid transparent;
+}
+.mdui-btn-group .mdui-btn:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.mdui-btn-group .mdui-btn:first-child:before {
+    border-left: none;
+}
+.mdui-btn-group .mdui-btn:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.mdui-btn-group .mdui-btn.mdui-btn-active {
+    color: rgba(0, 0, 0, .87);
+    background-color: rgba(0, 0, 0, .215);
+}
+.mdui-btn-group .mdui-btn.mdui-btn-active+.mdui-btn-active:before {
+    border-left: 1px solid rgba(0, 0, 0, .145);
+}
+/**
+ * =============================================================================
+ * ************   Button dark   ************
+ * =============================================================================
+ */
+
+.mdui-theme-layout-dark .mdui-btn:hover, .mdui-theme-layout-dark .mdui-fab:hover {
+    background-color: rgba(255, 255, 255, .1);
+}
+.mdui-theme-layout-dark .mdui-btn:not(.mdui-ripple):active, .mdui-theme-layout-dark .mdui-fab:not(.mdui-ripple):active {
+    background-color: rgba(255, 255, 255, .165);
+}
+.mdui-theme-layout-dark .mdui-btn[class*="mdui-color-"]:hover, .mdui-theme-layout-dark .mdui-fab[class*="mdui-color-"]:hover {
+    opacity: .87;
+}
+.mdui-theme-layout-dark .mdui-btn:not(.mdui-ripple)[class*="mdui-color-"]:active, .mdui-theme-layout-dark .mdui-fab:not(.mdui-ripple)[class*="mdui-color-"]:active {
+    opacity: .76;
+}
+.mdui-theme-layout-dark .mdui-btn[disabled], .mdui-theme-layout-dark .mdui-fab[disabled], .mdui-theme-layout-dark .mdui-btn[disabled]:hover, .mdui-theme-layout-dark .mdui-fab[disabled]:hover, .mdui-theme-layout-dark .mdui-btn[disabled]:active, .mdui-theme-layout-dark .mdui-fab[disabled]:active, .mdui-theme-layout-dark .mdui-btn[disabled]:focus, .mdui-theme-layout-dark .mdui-fab[disabled]:focus {
+    color: rgba(255, 255, 255, .3) !important;
+    background-color: transparent !important;
+}
+.mdui-theme-layout-dark .mdui-btn[disabled] .mdui-icon, .mdui-theme-layout-dark .mdui-fab[disabled] .mdui-icon, .mdui-theme-layout-dark .mdui-btn[disabled]:hover .mdui-icon, .mdui-theme-layout-dark .mdui-fab[disabled]:hover .mdui-icon, .mdui-theme-layout-dark .mdui-btn[disabled]:active .mdui-icon, .mdui-theme-layout-dark .mdui-fab[disabled]:active .mdui-icon, .mdui-theme-layout-dark .mdui-btn[disabled]:focus .mdui-icon, .mdui-theme-layout-dark .mdui-fab[disabled]:focus .mdui-icon {
+    color: rgba(255, 255, 255, .3) !important;
+}
+.mdui-theme-layout-dark .mdui-btn-raised[disabled], .mdui-theme-layout-dark .mdui-fab[disabled], .mdui-theme-layout-dark .mdui-btn-raised[disabled]:hover, .mdui-theme-layout-dark .mdui-fab[disabled]:hover, .mdui-theme-layout-dark .mdui-btn-raised[disabled]:active, .mdui-theme-layout-dark .mdui-fab[disabled]:active, .mdui-theme-layout-dark .mdui-btn-raised[disabled]:focus, .mdui-theme-layout-dark .mdui-fab[disabled]:focus {
+    background-color: rgba(255, 255, 255, .12) !important;
+}
+/**
+ * =============================================================================
+ * Layer弹窗 按钮美化
+ * =============================================================================
+ */
+
+.layui-layer .layui-layer-btn {
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    width: 100%;
+    height: auto;
+    line-height: 50px;
+}
+.layui-layer .layui-layer-btn a {
+    display: block;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px 6px 0;
+    padding: 2px 18px;
+    height: auto;
+    text-align: center;
+}
